@@ -5,9 +5,11 @@ import WallPaper from '../components/WallPaper'
 const HomePage = () => {
     return (
         <div className="home">
+            {/* <Logo /> */}
             <Navigation />
-            <Logo />
-            <WallPaper />
+                
+            <WallPaper/>
+                
         </div>
     )
 }

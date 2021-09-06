@@ -1,5 +1,16 @@
 .wall {
     background-image: url("../assets/ufc-fight-night-116\ 1.jpg");
     width: auto;
-    height: 847px;
+    height: 89.84vh;
+    background-size: cover;
+}
+
+body {
+    position: flex;
+    // max-width: none;
+    color: white;
+}
+
+span {
+    font-size: 100px;
 }
