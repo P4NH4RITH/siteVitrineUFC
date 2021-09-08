@@ -1,11 +1,13 @@
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import Map from "../components/Map";
+
 
 const InfoPage = () => {
   return (
     <div className="info">
+        
       <Navigation />
+      <div className="main">
       <section>
         <div class="layout row">
           <div class="text col-lg-9">
@@ -127,9 +129,10 @@ const InfoPage = () => {
             </table>
           </div>
 
-          <Map />
+        
         </div>
       </section>
+      </div>
       <Footer />
     </div>
   );
