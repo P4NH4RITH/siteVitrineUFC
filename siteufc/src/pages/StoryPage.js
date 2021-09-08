@@ -1,6 +1,5 @@
-import Footer from '../components/Footer'
-
-import Navigation from '../components/Navigation'
+import Footer from "../components/Footer";
+import Navigation from "../components/Navigation";
 
 const StoryPage = () => {
     return (
@@ -14,7 +13,8 @@ const StoryPage = () => {
         </div>
         <div className="text col">
           <h1>L'histoire de notre club</h1>
-          <h2>Le commencement</h2>
+
+          <h3>Le commencement</h3>
           <p>
             Fondé en 2005 le Ayoub-MMA-club tient son nom du fondateur du club
             qui lors de son adolescence difficile, se fesait régulièrement
@@ -25,14 +25,16 @@ const StoryPage = () => {
             Mais le judo lui appris plus la discipline que la defense en elle
             même. Le problème pour Ayoub c'est qu'il apprenait à se battre de
             maniere noble et fairplay.
+
           </p>
+          <h2>Le début d'une passion</h2>
           <p>
             Sauf qu'en dehors du dojo c'était la loi de la jungle, tous les
             coups étaient permis. Il se rendit rapidement compte que le judo
             n'était pas suffisant pour dominer ses adversaires sur le terrain et
             arreta rapidement de se rendre au dojo.
           </p>
-          <h2>Le début d'une passion</h2>
+          <h3>Le début d'une passion</h3>
           <p>
             Alors qu'il allait baisser les bras, rester une victime toute sa
             vie, il fit la rencontre de Nicolas, fan inconditionnel de
@@ -42,12 +44,6 @@ const StoryPage = () => {
             <br /> Ce fut pour lui 'La révélation' ainsi que le début d'une
             grande amitié. Enfin un sport de combat sans règle, comme dans la
             rue.
-          </p>
-          <p>
-            Le duo regarda le plus possible de matchs afin de comprendre et
-            répéter les mouvements. Ils s'entraînèrent plusieurs mois dans le
-            jardin de Nicolas. Puis il devienrent tous les 2 les 'vrais'
-            brutasses du quartier.
           </p>
           <h2>La fondation du club</h2>
           <p>

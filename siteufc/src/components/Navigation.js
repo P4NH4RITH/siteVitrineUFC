@@ -1,11 +1,11 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import Logo from './Logo';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import Logo from "./Logo";
 
 const Navigation = () => {
-    return (
-        <div className="nav-bar">
-            <Logo />
+  return (
+    <div className="nav-bar">
+      <Logo />
 
         <div className="navigation">
             <NavLink exact to="/" activeClassName="nav-active">

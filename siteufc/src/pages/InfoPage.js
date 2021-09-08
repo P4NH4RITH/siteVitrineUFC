@@ -1,41 +1,137 @@
-import Footer from '../components/Footer'
-
-import Navigation from '../components/Navigation'
+import Footer from "../components/Footer";
+import Navigation from "../components/Navigation";
+import Map from "../components/Map";
 
 const InfoPage = () => {
-    return (
-        <div className='info'>
-            <Navigation />
-            <div className="main">
+  return (
+    <div className="info">
+      <Navigation />
+      <section>
+        <div class="layout row">
+          <div class="text col-lg-9">
+            <h2>les règles contre le Covid en vigueur dans le club</h2>
+            <h5>Qu’est-ce que le pass sanitaire ?</h5>
+            <p>
+              Le pass sanitaire consiste en la présentation, numérique (via
+              l’application TousAntiCovid) ou papier, d’une preuve sanitaire,
+              parmi les trois suivantes : - la vaccination, à la condition que
+              les personnes disposent d’un schéma vaccinal complet et du délai
+              nécessaire après l’injection finale. - le certificat de test
+              négatif de moins de 72 heures. - le résultat d’un test RT-PCR ou
+              antigénique positif attestation du rétablissement du Covid-19
+              datant d’au moins 11 jours et de moins de 6 moi.
+            </p>
+            <h5>Où et quand faut-il présenter le pass sanitaire ?</h5>
+            <p>
+              Pour les sportifs majeurs (18 ans et plus), le pass sanitaire est
+              requis dans le cadre de la pratique en clubs dès maintenant pour
+              accéder à tous les établissements sportifs, qu’ils soient de plein
+              air ou couverts, et quel que soit le nombre de personnes
+              accueillies. Toutes les activités et pratiques sportives sont
+              concernées (entraînements, stages, opérations de rentrée,
+              compétitions etc…), ainsi que les venues d’ordre administratif
+              (inscriptions, accompagnement etc…)
+            </p>
+            <h5>Y -a-t-il des exemptions ?</h5>
+            <p>
+              Il existe deux exemptions temporaires : - jusqu’au 29 août inclus
+              pour les salariés, les bénévoles, les enseignants et les
+              stagiaires de la formation professionnelle (quand les stages se
+              déroulent en dehors des clubs). - jusqu’au 29 septembre inclus
+              pour les mineurs de 12 à 17 ans. Sont également exemptés de pass
+              de façon permanente : - les mineurs de moins de 12 ans - les
+              personnes présentant une attestation de contre-indication médicale
+              à la vaccination remise par un médecin.
+            </p>
+            <h5>Qui contrôle le pass sanitaire ?</h5>
+            <p>
+              Le responsable de l’équipement ou l’organisateur de l’activité
+              désignent les personnes habilitées à effectuer le contrôle du pass
+              sanitaire, qui doivent tenir un registre indiquant les jours et
+              horaires des contrôles effectués. Ce relevé permet, si
+              l’établissement a été fréquenté par une personne contaminée, de
+              mettre en œuvre le « contact tracing ». Les personnes contrôlant
+              habituellement l’accès aux installations peuvent effectuer les
+              contrôles, ou à défaut celles qui organisent l’activité, comme les
+              dirigeants de club ou les entraîneurs.
+            </p>
+            <h5>Le port du masque est-il obligatoire ?</h5>
+            <p>
+              Le port du masque n’est pas obligatoire pour les personnes ayant
+              accédé aux établissements sportifs au moyen du pass sanitaire.
+              Néanmoins, quand cela est possible, son utilisation reste une
+              mesure barrière efficace qui est conseillée. Le port du masque
+              peut toutefois être rendu obligatoire soit par arrêté préfectoral,
+              soit par décision de l’exploitant ou de l’organisateur.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div class="col-4">
+            <img src="../img/Panorama_de_la_Gouvernance.jpg" alt="covid" />
+          </div>
+          <div class="col">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="3">Horaires de la salle</th>
+                </tr>
+                <tr>
+                  <td>jours de la semaine</td>
+                  <td>Matin</td>
+                  <td>après midi</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lundi</td>
+                  <td>fermé</td>
+                  <td>14h-19h30</td>
+                </tr>
+                <tr>
+                  <td>Mardi</td>
+                  <td>9h-12h</td>
+                  <td>14h-19h30</td>
+                </tr>
+                <tr>
+                  <td>Mercredi</td>
+                  <td>10h-12h30</td>
+                  <td>14h30-19h</td>
+                </tr>
+                <tr>
+                  <td>Jeudi</td>
+                  <td>9h-12h</td>
+                  <td>14h-19h30</td>
+                </tr>
+                <tr>
+                  <td>Vendredi</td>
+                  <td>9h-12h</td>
+                  <td>14h-21h</td>
+                </tr>
+                <tr>
+                  <td>Samedi</td>
+                  <td>8h-12h</td>
+                  <td>14h-21h</td>
+                </tr>
+                <tr>
+                  <td>Dimanche</td>
+                  <td>9h-11h30</td>
+                  <td>fermé</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">Les horaires sont susceptible de changer </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
 
-            <section>
-                <div>
-                    <img src='' alt='img-1'></img>
-                    <img src='' alt='img-2'></img>
-                </div>
-                <div>
-                    <p>
-                        L'Ultimate Fighting Championship ou UFC est une organisation sportive américaine d'arts martiaux mixtes (MMA), créée en novembre 1993.
-                    </p>
-                    <p>
-                        Résultat de recherche d'images pour "ufc"
-                        Elle a pour but de confronter des combattants issus de tout type d'arts martiaux pour combattre les uns contre les autres dans des règles libres, mais très vite des règles sont fixées pour la sécurité des combattants.
-                    </p>
-                    <p>
-                        De nos jours, malgré une création très récente, L'UFC attirent jusqu'à plus de 56 000 spectateurs en 2015 pour un seul combat montrant l'attraction fulgurante du nombre de spectateurs qui a était multiplié par 20 en 20 ans.<br/> 
-
-                        De plus, l'UFC se mondialise avec l'organisation d'événements, en 2017, au Brésil ou au Japon par exemple. 
-                        Ce qui caractérise l'UFC c'est la cage ( en forme d'octogone).
-                    </p>
-                    <p>
-                        Résultat de recherche d'images pour "cage de ufc" Elle entoure les combattants laissant une aux combattants une très petite zone de combat, ceci favorise les combats debout car les combattants peuvent utiliser la cage pour se battre.
-                        Ce site souhaite résumer l'histoire de ce sport et expliquer comment il a pu devenir aussi célèbre en si peu de temps, il a était créé dans le cadre de l'Outil informatique à l'Université Champollion d'Albi.
-                    </p>
-                </div>
-            </section>
-            </div>
-            <Footer />
-            </div>
+          <Map />
+        </div>
+      </section>
+      <Footer />
+    </div>
   );
 };
 
