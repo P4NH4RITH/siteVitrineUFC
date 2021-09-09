@@ -5,7 +5,10 @@ import Logo from './Logo';
 const Navigation = () => {
     return (
         <div className="navigation">
-            <Logo/>
+            <div>
+                <Logo/>
+            </div>
+            
             <NavLink exact to="/" activeClassName="nav-active">
                 Accueil 
             </NavLink>

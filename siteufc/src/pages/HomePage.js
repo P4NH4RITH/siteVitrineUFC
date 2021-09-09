@@ -1,4 +1,4 @@
-import Logo from '../components/Logo'
+// import Logo from '../components/Logo'
 import Navigation from '../components/Navigation'
 import WallPaper from '../components/WallPaper'
 
@@ -9,7 +9,7 @@ const HomePage = () => {
             <Navigation />
                 
             <WallPaper/>
-                
+            {/* <video src="./assets/video.mp4"></video> */}
         </div>
     )
 }
