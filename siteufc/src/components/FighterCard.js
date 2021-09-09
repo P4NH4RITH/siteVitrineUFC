@@ -18,9 +18,9 @@ class FighterCard extends Component {
                     src="https://placeimg.com/200/200/people?random01"
                     alt="ff"
                   /> */}
-                  <div key={ FighterDetails.id }>
+                  
                     <img src={ FighterDetails.image } className="list-group-item" alt="" />
-                  </div>
+        
 
                   <div className="card-body">
                     <ul className="list-group list-group-flush">
