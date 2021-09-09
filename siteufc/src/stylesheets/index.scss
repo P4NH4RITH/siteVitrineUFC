@@ -4,15 +4,18 @@
 @import "./navigation";
 @import "./wallPaper";
 @import "./main";
+@import "./Form";
+@import "./story";
+@import "./InfoPage";
 
-.info{
-    section{
-        display: flex;
-        div{
-            flex-direction: column;
-        }
+.info {
+  section {
+    display: flex;
+    div {
+      flex-direction: column;
     }
   }
+}
 
 .flex-members {
   display: flex;

@@ -1,0 +1,36 @@
+table {
+  border: 1px solid black;
+  scale: 1;
+  margin: 5% 0% 5% 0%;
+}
+th,
+.horaire {
+  text-align: center;
+}
+.info p {
+  font-family: "Bebas Neue";
+}
+.layout-info {
+  margin-top: 5%;
+}
+.table {
+  margin-bottom: 10%;
+}
+.covid {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+@media screen and (max-width: 440px) {
+  .flex-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .covid {
+    width: 100%;
+    height: auto;
+  }
+  .table {
+    margin-top: 30px;
+    margin-bottom: 10%;
+  }
+}
