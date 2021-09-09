@@ -5,8 +5,10 @@ const MembersPage = () => {
   return (
     <div>
       <Navigation />
+      <div className="main">
 
       <FighterCard />
+      </div>
       <Footer />
     </div>
   );

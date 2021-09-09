@@ -7,11 +7,30 @@
 @import "./main";
 @import "./Form";
 
-.info {
-  section {
-    display: flex;
-    div {
-      flex-direction: column;
+.cards-box{
+    background-color: yellowgreen;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // text-align: center;
+    // align-content: space-between;
+    // justify-items: flex-end;
+    
+}
+.cards{
+    background-color:orangered;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 80%;
+}
+.info{
+    section{
+        display: flex;
+        div{
+            flex-direction: column;
+        }
+
     }
   }
 }
@@ -25,7 +44,31 @@
   margin: 5px;
   border: 2px solid grey;
 }
+.section-story{
+    padding: 5%;
+    background-color: rgb(72, 72, 72);
+    color: white;
+}
+.section-members{
+    padding: 5%;
+    // background-color: rgb(72, 72, 72);
+}
+.section-info{
+    padding: 5%;
+    background-color: rgb(72, 72, 72);
+}
+.section-contact{
+    padding: 5%;
+    // background-color: rgb(72, 72, 72);
+    
+}
 @media screen and (max-width: 440px) {
+    .navigation{
+        display: none;
+    }
+    .burger-menu{
+        z-index: 10;
+    }
   .section-story {
     display: flex;
     flex-direction: column;

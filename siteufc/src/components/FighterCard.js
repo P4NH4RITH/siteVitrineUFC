@@ -7,7 +7,8 @@ class FighterCard extends Component {
     return (
       <div>
         <h1 className="text-center">La liste de nos membres</h1>
-        <div>
+        <div className="cards-box">
+        <div className="cards">
           {FighterData.map((FighterDetails, index) => {
             return (
               <div className="flex-members">
@@ -41,6 +42,7 @@ class FighterCard extends Component {
               </div>
             );
           })}
+        </div>
         </div>
       </div>
     );
