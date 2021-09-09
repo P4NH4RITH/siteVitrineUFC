@@ -8,8 +8,16 @@ const StoryPage = () => {
       <div className="main">
         <div className="layout row">
           <div className="img-story col">
-            <img src="../img/justin-ng-small.jpg" alt="img-1"></img>
-            <img src="../img/amateursmall.jpg" alt="img-2"></img>
+            <img
+              className="img-info"
+              src="../img/justin-ng-small.jpg"
+              alt="img-1"
+            ></img>
+            <img
+              className="img-info"
+              src="../img/amateursmall.jpg"
+              alt="img-2"
+            ></img>
           </div>
           <div className="text col">
             <h1>L'histoire de notre club</h1>

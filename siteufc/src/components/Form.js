@@ -20,7 +20,7 @@ const Mailer = () => {
     <div>
       <h3 className="form-title">formulaire d'inscription</h3>
       <div
-        className="container card"
+        className="container card form-bcg"
         style={{ height: "480px", width: "640px" }}
       >
         <form className="form-group" onSubmit={sendEmail}>
@@ -30,8 +30,9 @@ const Mailer = () => {
             </label>
             <input
               type="text"
-              className="name_field"
+              className="name_field w-100"
               name="name"
+              rows="3"
               required
             ></input>
             <div className="form-style ">
@@ -40,16 +41,21 @@ const Mailer = () => {
               </label>
               <input
                 type="email"
-                className="_replyto"
+                className="_replyto w-100"
                 name="_replyto"
+                rows="3"
                 required
               ></input>
             </div>
             <div className="form-style ">
-              <label for="message" className="form-control">
+              <label for="message" className="form-control w-100">
                 Votre Message
               </label>
-              <textarea className="textarea_message" name="message"></textarea>
+              <textarea
+                className="textarea_message w-100"
+                name="message"
+                rows="5"
+              ></textarea>
             </div>
             <div className="form-style "></div>
             <button

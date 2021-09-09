@@ -1,9 +1,22 @@
 .form-contact {
   margin-top: 10%;
   margin-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 form {
   text-align: center;
+}
+label input {
+  width: 100%;
+}
+.form-style {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.form-control {
+  border: 0px solid white;
+  margin-bottom: 5px;
 }
 .form-title,
 .map-title,
@@ -13,4 +26,16 @@ a {
 }
 a {
   font-size: large;
+}
+
+@media screen and (max-width: 440px) {
+  .form-layout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: -7%;
+  }
+  .form-title .map-title {
+    text-align: center;
+  }
 }
