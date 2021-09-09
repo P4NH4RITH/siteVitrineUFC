@@ -31,15 +31,8 @@ const HomePage = () => {
             2017, au Brésil ou au Japon par exemple. Ce qui caractérise l'UFC
             c'est la cage ( en forme d'octogone).
           </p>
-          <p className="col">
-            Résultat de recherche d'images pour "cage de ufc" Elle entoure les
-            combattants laissant une aux combattants une très petite zone de
-            combat, ceci favorise les combats debout car les combattants peuvent
-            utiliser la cage pour se battre. Ce site souhaite résumer l'histoire
-            de ce sport et expliquer comment il a pu devenir aussi célèbre en si
-            peu de temps, il a était créé dans le cadre de l'Outil informatique
-            à l'Université Champollion d'Albi.
-          </p>
+
+          <img className="col" src="../img/trainning.jpg" alt="dont know" />
           <aside className="col">
             <h5 className="text-center">Notre histoire</h5>
             <p>
@@ -47,7 +40,7 @@ const HomePage = () => {
               cliquez sur la flêche
             </p>
             <NavLink exact to="histoire" activeClassName="nav-active">
-              <i class="fas fa-arrow-right fa-4x"></i>
+              <i class="fas fa-arrow-right fa-2x"></i>
             </NavLink>
           </aside>
         </section>
@@ -57,7 +50,7 @@ const HomePage = () => {
             N'hesitez surtout pas a jeter un coup d'oeil à notre team de
             combatants Cliquez sur la flèche pour en savoir plus
             <NavLink exact to="membres" activeClassName="nav-active">
-              <i class="fas fa-arrow-right fa-4x"></i>
+              <i class="fas fa-arrow-right fa-2x"></i>
             </NavLink>
           </p>
         </section>
@@ -69,14 +62,14 @@ const HomePage = () => {
             salle.
           </p>
           <NavLink exact to="infos" activeClassName="nav-active">
-            <i class="fas fa-arrow-right fa-4x"></i>
+            <i class="fas fa-arrow-right fa-2x"></i>
           </NavLink>
         </section>
         <section className="section-contact">
           <h1 className="text-center">s'inscrire</h1>
           <p>Si vous souhaitez rejoindre la Team, cliquez sur la flèche </p>
           <NavLink exact to="infos" activeClassName="nav-active">
-            <i class="fas fa-arrow-right fa-4x"></i>
+            <i class="fas fa-arrow-right fa-2x"></i>
           </NavLink>
         </section>
       </div>
