@@ -21,7 +21,7 @@ const Mailer = () => {
       <h3 className="form-title">formulaire d'inscription</h3>
       <div
         className="container card form-bcg"
-        style={{ height: "480px", width: "640px" }}
+        // style={{ height: "480px", width: "640px" }}
       >
         <form className="form-group" onSubmit={sendEmail}>
           <div className="form-style">

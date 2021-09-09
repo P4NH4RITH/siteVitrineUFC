@@ -9,10 +9,10 @@ const ContactPage = () => {
       <Navigation />
       <div className="main form-layout">
         <div className=" form-contact row">
-          <div className="col">
+          <div className="col form-place">
             <Form />
           </div>
-          <div className="col">
+          <div className="col map-place">
             <Map />
             <address>
               <a href="tel:+671235122">
