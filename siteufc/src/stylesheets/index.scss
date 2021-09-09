@@ -25,15 +25,25 @@
     justify-content: space-between;
     flex-basis: 80%;
 }
-.info{
-    section{
-        display: flex;
-        div{
-            flex-direction: column;
-        }
 
+.info {
+  section {
+    display: flex;
+    div {
+      flex-direction: column;
     }
   }
+}
+
+.flex-members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 5px;
+  border: 2px solid grey;
+}
 
 
 .flex-members {
