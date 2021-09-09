@@ -6,7 +6,32 @@
 @import "./main";
 @import "./Form";
 @import "./story";
-@import "./InfoPage";
+@import "./infoPage";
+
+.cards-box{
+    background-color: yellowgreen;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // text-align: center;
+    // align-content: space-between;
+    // justify-items: flex-end;
+    
+}
+.cards{
+    background-color:orangered;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 80%;
+}
+.info{
+    section{
+        display: flex;
+        div{
+            flex-direction: column;
+        }
+
     }
   }
 
