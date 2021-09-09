@@ -2,16 +2,21 @@ import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import WallPaper from "../components/WallPaper";
 import { NavLink } from "react-router-dom";
+import Burger from "../components/Burger/Burger";
 
 const HomePage = () => {
   return (
     <div className="home">
       <Navigation />
       <div className="content">
+          
         <section className="section-img">
           <WallPaper />
         </section>
         <section className="section-story row">
+            <div className="burger-menu">
+        <Burger />
+        </div>
           <h1 className="text-center">L'histoire du MMA</h1>
           <p className="col">
             L'Ultimate Fighting Championship ou UFC est une organisation

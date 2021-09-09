@@ -7,15 +7,9 @@
 @import "./Form";
 @import "./story";
 @import "./InfoPage";
-
-.info {
-  section {
-    display: flex;
-    div {
-      flex-direction: column;
     }
   }
-}
+
 
 .flex-members {
   display: flex;
@@ -26,7 +20,31 @@
   margin: 5px;
   border: 2px solid grey;
 }
+.section-story{
+    padding: 5%;
+    background-color: rgb(72, 72, 72);
+    color: white;
+}
+.section-members{
+    padding: 5%;
+    // background-color: rgb(72, 72, 72);
+}
+.section-info{
+    padding: 5%;
+    background-color: rgb(72, 72, 72);
+}
+.section-contact{
+    padding: 5%;
+    // background-color: rgb(72, 72, 72);
+    
+}
 @media screen and (max-width: 440px) {
+    .navigation{
+        display: none;
+    }
+    .burger-menu{
+        z-index: 10;
+    }
   .section-story {
     display: flex;
     flex-direction: column;
