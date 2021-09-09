@@ -1,6 +1,7 @@
 import React from "react";
 import { Component } from "react";
 import FighterData from "../team.json";
+import Images from '../team.json';
 
 class FighterCard extends Component {
   render() {
@@ -8,15 +9,19 @@ class FighterCard extends Component {
       <div>
         <h1 className="text-center">La liste de nos membres</h1>
         <div>
-          {FighterData.map((FighterDetails, index) => {
+          {Images && FighterData.map((FighterDetails) => {
             return (
               <div className="flex-members">
                 <div className="card" style={{ width: "18rem" }}>
-                  <img
+                  {/* <img
                     className="card-img-top"
                     src="https://placeimg.com/200/200/people?random01"
                     alt="ff"
-                  />
+                  /> */}
+                  <div key={ FighterDetails.id }>
+                    <img src={ FighterDetails.image } className="list-group-item" alt="" />
+                  </div>
+
                   <div className="card-body">
                     <ul className="list-group list-group-flush">
                       <li className="list-group-item">

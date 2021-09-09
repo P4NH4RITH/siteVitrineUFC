@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "image": "img/amateur.jpg",
     "first_name": "Abarji",
     "last_name": "Ayoub",
     "size": "1m80",
@@ -9,6 +10,7 @@
   },
   {
     "id": 2,
+    "image": "img/justin-ng-small.jpg",
     "first_name": "Herbez",
     "last_name": "Nicolas",
     "size": "1m82",
