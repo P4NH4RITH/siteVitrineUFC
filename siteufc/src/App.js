@@ -1,4 +1,3 @@
-import React, { useState, useRef } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import InfoPage from "./pages/InfoPage";
@@ -7,27 +6,9 @@ import StoryPage from "./pages/StoryPage";
 import ContactPage from "./pages/ContactPage";
 import SubscriptionPage from "./pages/SubscriptionPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import { useOnClickOutside } from './hooks';
-import { Burger, Menu } from './components';
-import FocusLock from 'react-focus-lock';
 
-function App() {
-  const [open, setOpen] = useState(false);
-  const node = useRef();
-  const menuId = "main-menu";
-
-  useOnClickOutside(node, () => setOpen(false));
-
-
+const App = () => {
   return (
-    <>
-    <div ref={node}>
-          <FocusLock disabled={!open}>
-            <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
-            <Menu open={open} setOpen={setOpen} id={menuId} />
-          </FocusLock>
-    </div>
-
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={HomePage} />
@@ -39,9 +20,7 @@ function App() {
         <Route component={NotFoundPage} />
       </Switch>
     </BrowserRouter>
-    </>
   );
-
-}
+};
 
 export default App;
