@@ -6,7 +6,7 @@ const StoryPage = () => {
     <div>
       <Navigation />
       <div className="main">
-        <div className="layout row">
+        <div className="layout row info-layout">
           <div className="img-story col">
             <img
               className="img-info"

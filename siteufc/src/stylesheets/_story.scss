@@ -1,0 +1,25 @@
+.img-info {
+  margin-bottom: 5%;
+}
+.text-col > p,
+.text-col h3 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+p {
+  font-family: "Bebas Neue";
+}
+h3 {
+  font-family: "Anton";
+}
+@media screen and (max-width: 440px) {
+  .info-layout {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+  }
+  .img-info {
+    width: 100%;
+    height: auto;
+  }
+}
