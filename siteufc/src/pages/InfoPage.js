@@ -66,12 +66,76 @@ const InfoPage = () => {
               peut toutefois être rendu obligatoire soit par arrêté préfectoral,
               soit par décision de l’exploitant ou de l’organisateur.
             </p>
+            
           </div>
-        </div>
-        <div className="row">
-          <div class="col-4">
-            <img src="../img/Panorama_de_la_Gouvernance.jpg" alt="covid" />
+          <div className="layout-info row">
+            <div className="col">
+              <img
+                className="covid"
+                src="../img/Panorama_de_la_Gouvernance.jpg"
+                alt="covid"
+              />
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th colspan="3">Horaires de la salle</th>
+                  </tr>
+                  <tr>
+                    <td>jours de la semaine</td>
+                    <td>Matin</td>
+                    <td>après midi</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Lundi</td>
+                    <td>fermé</td>
+                    <td>14h-19h30</td>
+                  </tr>
+                  <tr>
+                    <td>Mardi</td>
+                    <td>9h-12h</td>
+                    <td>14h-19h30</td>
+                  </tr>
+                  <tr>
+                    <td>Mercredi</td>
+                    <td>10h-12h30</td>
+                    <td>14h30-19h</td>
+                  </tr>
+                  <tr>
+                    <td>Jeudi</td>
+                    <td>9h-12h</td>
+                    <td>14h-19h30</td>
+                  </tr>
+                  <tr>
+                    <td>Vendredi</td>
+                    <td>9h-12h</td>
+                    <td>14h-21h</td>
+                  </tr>
+                  <tr>
+                    <td>Samedi</td>
+                    <td>8h-12h</td>
+                    <td>14h-21h</td>
+                  </tr>
+                  <tr>
+                    <td>Dimanche</td>
+                    <td>9h-11h30</td>
+                    <td>fermé</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td className="horaire" colspan="3">
+                      Les horaires sont susceptible de changer
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+              <img className="covid" src="../img/mask-50.jpg" alt="fighter" />
+              <img className="covid" src="../img/mask-20.jpg" alt="fighter" />
+            </div>
           </div>
+            
           <div class="col">
             <table>
               <thead>

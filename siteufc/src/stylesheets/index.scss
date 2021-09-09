@@ -1,9 +1,11 @@
+@import "./InfoPage";
 @import "./footer.scss";
 @import "./settings.scss";
 @import "./logo";
 @import "./navigation";
 @import "./wallPaper";
 @import "./main";
+@import "./Form";
 
 .cards-box{
     background-color: yellowgreen;
@@ -28,8 +30,10 @@
         div{
             flex-direction: column;
         }
+
     }
   }
+}
 
 .flex-members {
   display: flex;
