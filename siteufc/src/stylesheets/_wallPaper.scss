@@ -1,6 +1,67 @@
 .wall {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    // background-size: cover;
+    // animation: gradient 4s ease infinite;
+    // animation: zoom 10s infinite;
+    // background-image: url("../assets/ufc-fight-night-116\ 1.jpg");
+    // background-size: cover;
+    // width: auto;
+    height: 847px;
+    // -webkit-filter: blur(5px);
+    // -moz-filter: blur(5px);
+    // -o-filter: blur(5px);
+    // -ms-filter: blur(5px);
+    // filter: blur(5px);
+    // filter: grayscale(85%);
+    // filter: blur(10px);
+    z-index: -12;
+    // position: relative;
+    // display: flex;
+    // overflow: hidden;
+    // clip-path: ;
+    // opacity: 0.4;
+    // flex-basis: 80%;
+}
+.bg-img{
+    // background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+// flex-basis: 80%;
     background-image: url("../assets/ufc-fight-night-116\ 1.jpg");
+    // animation: zoom 10s infinite;
+    // background-position: center;
     background-size: cover;
     width: auto;
     height: 847px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    // display: relative;
+    // z-index: -50;
+    // position: relative;
+    // display: flex;
+    // overflow: hidden;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes zoom {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.1);
+
+    }
+    100% {
+        transform: scale(1.0);
+
+    }
 }

@@ -1,3 +1,4 @@
+
 {
   "dependencies": {
     "react-burger-menu": "^3.0.6",
@@ -5,3 +6,4 @@
     "styled-components": "^5.3.1"
   }
 }
+

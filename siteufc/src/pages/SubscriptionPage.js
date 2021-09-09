@@ -6,6 +6,8 @@ const SubscriptionPage = () => {
   return (
     <div>
       <Navigation />
+      <div className="main">
+
       <div className="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cumque
         impedit, rerum, consectetur nostrum excepturi sapiente laudantium
@@ -14,6 +16,7 @@ const SubscriptionPage = () => {
       </div>
       <Mailer />
       <Upload />
+      </div>
     </div>
   );
 };

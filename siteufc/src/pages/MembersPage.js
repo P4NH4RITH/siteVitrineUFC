@@ -1,16 +1,15 @@
-import Footer from '../components/Footer'
-import Navigation from '../components/Navigation'
-
+import Footer from "../components/Footer";
+import Navigation from "../components/Navigation";
+import FighterCard from "../components/FighterCard";
 const MembersPage = () => {
-    return (
-        <div>
-            <Navigation />
-            <p>
-                placeholder
-            </p>
-            <Footer />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Navigation />
 
-export default MembersPage
+      <FighterCard />
+      <Footer />
+    </div>
+  );
+};
+
+export default MembersPage;

@@ -1,14 +1,38 @@
-@import './footer.scss';
+@import "./InfoPage";
+@import "./footer.scss";
 @import "./settings.scss";
 @import "./logo";
 @import "./navigation";
 @import "./wallPaper";
+@import "./main";
 
-.info{
-    section{
-        display: flex;
-        div{
-            flex-direction: column;
-        }
+.info {
+  section {
+    display: flex;
+    div {
+      flex-direction: column;
     }
+  }
+}
+
+.flex-members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 5px;
+  border: 2px solid grey;
+}
+@media screen and (max-width: 440px) {
+  .section-story {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .wall {
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -160%;
+  }
 }

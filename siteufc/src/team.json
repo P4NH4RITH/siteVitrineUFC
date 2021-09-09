@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "first_name": "Abarji",
+    "last_name": "Ayoub",
+    "size": "1m80",
+    "weight": "70 kg",
+    "style": "capuera"
+  },
+  {
+    "id": 2,
+    "first_name": "Herbez",
+    "last_name": "Nicolas",
+    "size": "1m82",
+    "weight": "90 kg",
+    "style": "full contact"
+  },
+  {
+    "id": 3,
+    "first_name": "Liesse",
+    "last_name": "Camille",
+    "size": "1m72",
+    "weight": "58 kg",
+    "style": "boxe Thaï"
+  },
+  {
+    "id": 4,
+    "first_name": "Menskoï",
+    "last_name": "Antoine",
+    "size": "1m78",
+    "weight": " 89 kg",
+    "style": "kung-fu Acrobatique"
+  },
+  {
+    "id": 5,
+    "first_name": "Pacque",
+    "last_name": "Johann",
+    "size": "1m85",
+    "weight": "105 kg",
+    "style": "polochon style fighter"
+  },
+  {
+    "id": 6,
+    "first_name": "Moreau",
+    "last_name": "Nicolas",
+    "size": "1.75",
+    "weight": "87 kg",
+    "style": "Copycat Ninjutsu"
+  },
+  {
+    "id": 6,
+    "first_name": "Muong",
+    "last_name": "Panharith",
+    "size": "1m75",
+    "weight": "75 kg",
+    "style": "Dovakin Style"
+  },
+  {
+    "id": 6,
+    "first_name": "Patou",
+    "last_name": "Benoit",
+    "size": "1m78",
+    "weight": " 95 kg",
+    "style": "Drunk Master"
+  },
+  {
+    "id": 6,
+    "first_name": "",
+    "last_name": "",
+    "size": "",
+    "weight": " kg",
+    "style": ""
+  }
+]
