@@ -41,8 +41,6 @@ const HomePage = () => {
             </p>
             <NavLink exact to="histoire" activeClassName="nav-active">
               <legend>en savoir plus...</legend>
-            <i class="fas fa-arrow-right fa-2x"></i>
-
             </NavLink>
           </aside>
         </section>
@@ -51,10 +49,6 @@ const HomePage = () => {
           <p className="text-center">
             N'hesitez surtout pas a jeter un coup d'oeil à notre team de
             combatants Cliquez sur la flèche pour en savoir plus
-            <NavLink exact to="membres" activeClassName="nav-active">
-              <i class="fas fa-arrow-right fa-2x"></i>
-            </NavLink>
-
           </p>
           <NavLink exact to="membres" activeClassName="nav-active">
             <legend className="text-center">en savoir plus...</legend>
@@ -69,8 +63,6 @@ const HomePage = () => {
           </p>
           <NavLink exact to="infos" activeClassName="nav-active">
             <legend className="text-center">en savoir plus...</legend>
-            <i class="fas fa-arrow-right fa-2x"></i>
-
           </NavLink>
         </section>
         <section className="section-contact">
@@ -80,7 +72,6 @@ const HomePage = () => {
           </p>
           <NavLink exact to="infos" activeClassName="nav-active">
             <legend className="text-center">en savoir plus...</legend>
-            <i class="fas fa-arrow-right fa-2x"></i>
           </NavLink>
         </section>
       </div>
