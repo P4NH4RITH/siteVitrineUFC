@@ -1,12 +1,16 @@
 .form-contact {
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-right: 15%;
+
+  margin-right: 10%;
 }
 .google-map-code,
 address {
   padding-left: 15%;
 }
+// .map-place {
+//   padding-right: 25%;
+// }
 
 form {
   text-align: center;
@@ -39,6 +43,18 @@ address {
   margin-top: 5%;
 }
 @media screen and (max-width: 450px) {
+  .form-place {
+    flex-basis: 70%;
+  }
+  .google-map-code,
+  address {
+    margin-left: 17%;
+    height: auto;
+    width: 100%;
+  }
+  .map-place {
+    margin-right: 15%;
+  }
   .form-layout {
     display: flex;
     flex-direction: column;

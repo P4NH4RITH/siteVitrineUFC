@@ -1,0 +1,27 @@
+section p {
+  font-size: medium;
+}
+section legend {
+  font-size: smaller;
+}
+@media screen and (max-width: 450px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-story {
+    margin-top: 180%;
+  }
+  .wall {
+    width: 100%;
+    height: auto;
+  }
+  // .bg-img {
+  //   width: 100%;
+  //   height: auto;
+  // }
+  .contrent {
+    width: 100%;
+    height: auto;
+  }
+}
